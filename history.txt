@@ -1,8 +1,6 @@
     1  cd ~
     2  pwd
-    3  cd workspace
-    4  git branch master
-    5  git checkout cmd-history
-    6  git branch -b cmd-history
-    7  git checkout -b cmd-history
-    8  history > history.txt
+    3  git clone git@github.com:lsinh/decodemtl.git
+    4  git checkout cmd-history
+    5  cd workspace
+    6  history > history.txt
